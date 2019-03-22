@@ -1,0 +1,17 @@
+#sortableTable{
+    width: 600px;
+    border-spacing: 0px 8px;
+    margin: 0 0 12px 0;
+}
+#sortableTable td{
+    padding: 8px 16px;
+    background-color: #FFF;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+#sortableTable td:first-child{
+    border-left: 1px solid #e5e5e5;
+}
+#sortableTable td:last-child{
+    border-right: 1px solid #e5e5e5;
+}
